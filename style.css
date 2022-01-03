@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.nav--icon{
+    width: 210px;
+    height: 100px;
+    padding-left: 40px;
+}
+.hero-icon{
+    padding-top: 40px;
+    padding-left: 360px;
+    height: 490px;
+    /*width: 1160px;*/
+    max-width: 100%;
+}
+.H1{
+    font-family: Poppins;
+    font-size: 55px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.hero-p{
+    font-family: Poppins;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.card{
+    width: 375px;
+    font-family: Poppins;
+    font-size: 18px;
+    padding-left: 75px;
+    padding-top: 20px;
+}
+.card-image-top{
+   width: 100%;
+   border-radius: 9px;
+}
+.card-stats{
+    display: flex;
+    align-items: center;
+    color: #918E9B;
+}
+.card-text2{
+    font-weight: bold;
+}
+.main--body{
+    display: flex;
+}
+@media screen and (max-width :1024px) {
+    .hero-icon{
+        padding-top: 20px;
+        padding-left: 40px;
+        height: 290px;
+        width: 700px;
+        padding-right: 60px;
+    }
+    .nav--icon{
+        padding-left: 10px;
+    }
+    .H1{
+        font-size: 40px;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+    .hero-p{
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+    .card{
+        width: 175px;
+        font-size: 18px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }   
+}
+@media screen and (max-width :1006px)
+{
+    .card--4{
+        display: none;
+    }
+    .card{
+        width: 200px;
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }   
+}
+@media screen and (max-width :768px) {
+    .hero-icon{
+        padding-left: 50px;
+        height: 350px;
+        width: 700px;
+        padding-right: 30px;
+    }
+    .card{
+        width: 250px;
+    }   
+}
+@media screen and (max-width :541px) {
+    .hero-icon{
+        padding-left: 50px;
+        height: 300px;
+        width: 600px;
+        padding-right: 30px;
+    }
+    .card{
+        width: 200px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }   
+}
+@media screen and (max-width :416px) {
+    .hero-icon{
+        padding-left: 50px;
+        height: 200px;
+        width: 400px;
+        padding-right: 30px;
+    }
+    .card{
+        width: 160px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }   
+}
+@media screen and (max-width :300px) {
+    .hero-icon{
+        padding-left: 20px;
+        height: 200px;
+        width: 420px;
+        padding-right: 30px;
+    }
+    .card{
+        width: 160px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }   
+}
